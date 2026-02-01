@@ -1,0 +1,133 @@
+@font-face {
+    font-family:supar ;
+    src: url("./gt-super-400-normal.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+html, body {
+  min-height: 100%;
+  width: 100%;
+}
+main{
+    height: 100%;
+  width: 100%;
+}
+
+
+header{
+    height: 80px;
+    width: 100%;
+    /* background: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    border-bottom:  1px solid black;
+   text-transform: capitalize;
+
+}
+header h1{
+    font-family: supar;
+    font-weight: 900;
+}
+.nav-2{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 10px ;
+    cursor: pointer;
+   
+}
+.nav-2 p {
+    font-size: 1rem;
+    color: #000000e9;
+}
+header button{
+    background: black;
+    color: white;
+    padding: 9px 14px ;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+section{
+    background: rgb(255, 255, 255);
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section .left{
+    height:100%;
+    width: 700px;
+    /* background: forestgreen; */
+    margin-left: 100px;
+    padding: 20px;
+
+    
+}
+section .left h1{
+    font-size: 6.5vw;
+    font-family: supar;
+    line-height: 1;
+    color: #000000e9;
+    
+    
+}
+.text{
+    margin-top: 100px;
+}
+.left p{
+    padding: 20px 15px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000d4;
+}
+
+.left button{
+    background: #000000;
+    color: rgba(255, 255, 255, 0.874);
+    padding: 16px 45px ;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+section .right{
+    height:100%;
+    width: 500px;
+    background: url(./img.jpg);
+    background-size: cover;
+    /* background-position: center; */
+
+    /* background: rgb(34, 139, 107); */
+}
+/* ----------------- */
+
+footer{
+    height: 90px;
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+border-top: 1px solid black;
+cursor: pointer;
+    
+}
+
